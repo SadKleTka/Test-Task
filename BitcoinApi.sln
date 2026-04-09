@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitcoinApi", "BitcoinApi.csproj", "{E72ADEB3-C04F-1166-2E93-AC580C46D596}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E72ADEB3-C04F-1166-2E93-AC580C46D596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E72ADEB3-C04F-1166-2E93-AC580C46D596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E72ADEB3-C04F-1166-2E93-AC580C46D596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E72ADEB3-C04F-1166-2E93-AC580C46D596}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41525604-0ED3-41D3-907A-18C830ED1519}
+	EndGlobalSection
+EndGlobal
