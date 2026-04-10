@@ -34,7 +34,20 @@ public class BitcoinGettingService : BackgroundService
             PropertyNameCaseInsensitive = true
         });
                 
-                Bitcoin bitcoin = new Bitcoin(getBitcoin?.Bitcoin?.Usd ?? 0, DateTime.UtcNow);
+                Random random = new Random();
+                int randomDelay = random.Next(0, 1000);
+                int final = 0;
+                if (getBitcoin != null && getBitcoin.Bitcoin != null)
+                {
+                    final += randomDelay + (int)getBitcoin.Bitcoin.Usd;
+                }
+                else
+                {
+                    final += 0;
+                }
+                _logger.LogInformation($"Calculated Bitcoin price with random delay: {final}, Random Delay: {randomDelay}ms");
+                Bitcoin bitcoin = new Bitcoin(final, DateTime.UtcNow);
+                final = 0;
                 _logger.LogInformation($"Bitcoin deserialized: {bitcoin?.Price}, Time: {bitcoin?.Timestamp}");
                 
                 if (bitcoin == null)
@@ -51,7 +64,7 @@ public class BitcoinGettingService : BackgroundService
                 _logger.LogError(ex, "Error occurred while loading Bitcoin data");
             }
 
-            await Task.Delay(5000, stoppingToken);
+            await Task.Delay(20000, stoppingToken);
         }
     }
 }

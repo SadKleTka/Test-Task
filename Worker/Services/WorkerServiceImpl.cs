@@ -4,7 +4,6 @@ using BitcoinApi.Entities.DTO;
 public class WorkerServiceImpl : WorkerService
 {
     private readonly AppDbContext _dbContext;
-
     public WorkerServiceImpl(AppDbContext dbContext)
     {
         _dbContext = dbContext;

@@ -123,3 +123,4 @@
 /Users/amank/BitcoinApi/obj/Debug/net10.0/BitcoinApi.pdb
 /Users/amank/BitcoinApi/obj/Debug/net10.0/BitcoinApi.genruntimeconfig.cache
 /Users/amank/BitcoinApi/obj/Debug/net10.0/ref/BitcoinApi.dll
+/Users/amank/BitcoinApi/obj/Debug/net10.0/BitcoinApi.sourcelink.json

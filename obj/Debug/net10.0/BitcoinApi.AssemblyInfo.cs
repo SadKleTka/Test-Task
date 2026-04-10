@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BitcoinApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+19468ff1f0d9a3ac6fc42f0e34b37cbf9f608b55")]
 [assembly: System.Reflection.AssemblyProductAttribute("BitcoinApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BitcoinApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

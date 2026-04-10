@@ -19,9 +19,8 @@ var app = builder.Build();
 
 app.MapOpenApi();
 
-app.UseHttpsRedirection();
-app.UseAuthorization();
 app.UseMiddleware<ExceptionHandler>();
+app.UseHttpsRedirection();
 app.MapControllers();
 
 app.Run();
